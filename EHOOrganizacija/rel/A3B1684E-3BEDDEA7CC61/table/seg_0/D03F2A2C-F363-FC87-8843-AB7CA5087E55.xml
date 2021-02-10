@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D03F2A2C-F363-FC87-8843-AB7CA5087E55" name="Prijava">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>A3D1EEB4-58CF-932C-CF85-E78F209AEF27</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prij_id" id="E1B47610-D76C-B19A-540A-B0B0F8C92835">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>9BAE4D36-9A46-5012-2497-C18CCD1BEA61</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prij_dat" id="F391389C-C467-BBB3-F907-A0366984AC41">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>3ABCCECA-EE3F-8193-D5D3-E140A637B901</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Volonter_vol_jmbg" id="2EE9D853-AD34-988F-3084-7604A90D8C24">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>44254156-A448-C7DC-6A0E-AA656AA6AE7A</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C11760B-F669-556D-8372-FF3B4F2C4FAA" referredColumn="B026D9D6-1EA0-1F2C-6423-37747AD6DDEB"/>
+</associations>
+</Column>
+<Column name="Rukovodilac_ruk_jmbg" id="51FC62BA-2A1C-60BA-B8B4-25D5C31E358F">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>7B851D69-BD29-E0A9-2163-E2801ABF232E</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F598D33-CB97-B62E-EB70-E872D0092052" referredColumn="4A2E3C94-A13B-C22B-04E9-966EB39B5F83"/>
+</associations>
+</Column>
+<Column name="Projekat_proj_sif" id="77093663-D549-D30C-E71B-CFDD7E5CFBFF">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>E5765406-1E79-14E4-7717-535D5091ACB3</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B43CCFD-AE2C-094E-C332-D555A7D0D75A" referredColumn="266CE0D2-F93B-4E5B-ADF2-ECF60651AF20"/>
+</associations>
+</Column>
+<Column name="odb_prij" id="22021392-393A-C0AC-216A-20240034E609">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>1851F9C5-F39C-121A-1F9C-B043B27A846F</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>9F598D33-CB97-B62E-EB70-E872D0092052</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D3B5A89-EEE3-2683-0AEA-2CCAA06A8313" name="Prijava_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>DC92EB94-7D46-93C1-B25F-0461E968CFE2</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1B47610-D76C-B19A-540A-B0B0F8C92835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E86794C5-787B-70A8-F822-A462F593C102" name="Prijava_Projekat_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>0E63FBDC-34D0-1170-CF6F-66C57E80B0B6</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77093663-D549-D30C-E71B-CFDD7E5CFBFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="117BAA3E-DADB-1AB8-4B4D-99C4D90BB63F" name="Prijava_Rukovodilac_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>0BAFF5B4-2C59-344A-A4A3-8FAC5FF6A0AB</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51FC62BA-2A1C-60BA-B8B4-25D5C31E358F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03B1B2E3-7DB4-40CF-CAD3-C8F2E90667E5" name="Prijava_Volonter_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>46AF75BA-CA26-E695-4475-FE988A4664D8</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EE9D853-AD34-988F-3084-7604A90D8C24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

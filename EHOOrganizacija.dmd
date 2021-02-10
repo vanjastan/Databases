@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EHOOrganizacija" id="564B1B69-0863-B2A8-5067-E8673B4A39C1" version="3.5">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 21:14:27 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>564B1B69-0863-B2A8-5067-E8673B4A39C1</designId>
+</OSDM_Design>

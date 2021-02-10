@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DC2E7AF-3CEA-BCC8-0CB4-6D34695D1E70" name="Socijalizacija">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>94907CE2-22DF-5E9A-4969-3A7B80B4F695</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="akt_id" id="1D1B3C25-E858-7485-F589-1528A21BC841">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>6151D636-1D19-B3D6-B3AC-51F18AE2DEBC</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9406F83C-7731-56F8-FF91-586E1A5D8FD3" referredColumn="57634C0F-1571-1994-20D2-DA115386EEF0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4B4DB32-A1C7-BB77-4E7C-DFA3ADD64A4E" name="Socijalizacija_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>C1B9F902-8BF1-3B60-B695-3C04B93DEAC9</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1B3C25-E858-7485-F589-1528A21BC841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92E54283-8A60-DC57-6233-0D90EC46EE88" name="Socijalizacija_Aktivnost_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>7EB6E176-0BB5-6119-D460-B4B1084FC3A4</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1B3C25-E858-7485-F589-1528A21BC841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

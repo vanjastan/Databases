@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A87B1BE-BDF3-CD1D-93C5-A3917E60CA0E" name="Tim">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>5091FE5A-B3F5-8342-146F-68CFCABE1759</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tim_sif" id="FA8FC9DE-0604-6F34-E798-FE92D430CD6D">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>1D881EED-B8F5-A3F3-EE19-7CB02B8BC64D</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7EDB6CF-C97D-3694-E6FB-A42FEA3B6EDD" name="Tim_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>A3325EDC-BBC4-7F42-D577-06A22B5283B9</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA8FC9DE-0604-6F34-E798-FE92D430CD6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

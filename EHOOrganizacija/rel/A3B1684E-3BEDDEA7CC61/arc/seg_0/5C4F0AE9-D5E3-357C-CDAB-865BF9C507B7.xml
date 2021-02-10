@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="5C4F0AE9-D5E3-357C-CDAB-865BF9C507B7" name="FKArc_7">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>8D0AA2EF-88B5-8E2F-6478-79A3C3D6EF53</table>
+<discriminatorColumn>AEA24CDD-EA5A-F8AF-6561-E0836B62E5F2</discriminatorColumn>
+<fkeys>
+<fkeyID>9E3A4354-7155-BD9B-1500-8D06BB8EAB98</fkeyID>
+<fkeyID>9406F83C-7731-56F8-FF91-586E1A5D8FD3</fkeyID>
+<fkeyID>0776A786-D5EC-786C-CB23-C1F33EB444B0</fkeyID>
+</fkeys>
+</FKArc>

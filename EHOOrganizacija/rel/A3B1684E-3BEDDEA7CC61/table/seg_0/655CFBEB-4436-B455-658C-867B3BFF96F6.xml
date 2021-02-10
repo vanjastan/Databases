@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="655CFBEB-4436-B455-658C-867B3BFF96F6" name="JeClan">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tim_tim_sif" id="9D1A0CC8-D211-B7F3-9B34-40D813B3523B">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEC0982A-188E-96B5-AD32-DFE5E28F82FD" referredColumn="FA8FC9DE-0604-6F34-E798-FE92D430CD6D"/>
+</associations>
+</Column>
+<Column name="Volonter_vol_jmbg" id="B1F3CBBD-713E-DD72-AA05-4608C6A732E8">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23FE89B4-3C6B-BF3A-35FE-E12C80E986C1" referredColumn="B026D9D6-1EA0-1F2C-6423-37747AD6DDEB"/>
+</associations>
+</Column>
+<Column name="je_clan_lid" id="A04BA840-9FC5-2C2C-566C-0D96BF90FF7D">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>58936E63-68B4-321E-8075-C946F6B5BF21</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="613EEB12-4440-FC8D-C44B-CE4DB9B54F4B" name="JeClan_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D1A0CC8-D211-B7F3-9B34-40D813B3523B"/>
+<colUsage columnID="B1F3CBBD-713E-DD72-AA05-4608C6A732E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B329CC8-3630-6E45-696D-1BCA82068518" name="JeClan_Tim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>48EC2698-1BA5-772A-9359-A86BFD5D3FB3</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D1A0CC8-D211-B7F3-9B34-40D813B3523B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FCA4EA2-8147-471E-BFF0-47BC517B9F67" name="JeClan_Volonter_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>48EC2698-1BA5-772A-9359-A86BFD5D3FB3</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1F3CBBD-713E-DD72-AA05-4608C6A732E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

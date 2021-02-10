@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="543234FA-9F70-7769-886C-DFE09BFB3F39" containerWithKeyObject="8EC4EC8C-A341-4E1F-A019-790D6B43490A" localFKIndex="EC18BAE7-ABDF-6D76-0DFD-3E8FCE605A6A" name="Boravak_Osn_skola_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>33CABD48-3035-2C87-C1B3-077CBE5413B8</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Osn_skola</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>30C2201E-AF4E-C3FC-609C-C5DFBAAA315F</referredTableID>
+<keyObject>7E643891-5A09-41A4-D256-4E3424EA4E0D</keyObject>
+<referredKeyID>7E643891-5A09-41A4-D256-4E3424EA4E0D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>oi_ozn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

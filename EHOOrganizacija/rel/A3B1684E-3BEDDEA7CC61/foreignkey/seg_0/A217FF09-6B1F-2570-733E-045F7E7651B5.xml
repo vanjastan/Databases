@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A217FF09-6B1F-2570-733E-045F7E7651B5" containerWithKeyObject="CF83278A-F442-DEC1-30FF-86B946C1F21C" localFKIndex="62EAA2F6-32E9-D31E-EB6F-E0FABE1D343B" name="Sred_skola_Obrz_inst_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>30E22C20-BDE5-DF21-D1F4-F6979C5C908C</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Obrz_inst</referredTableLongName>
+<arc>F8545D91-0F2C-8E54-B8A4-EBDD2D21C98E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2956CD93-A8E0-AB1E-AC1D-A4716D4CD9D7</referredTableID>
+<keyObject>5CD83B47-8580-8DFA-F258-42C7F9B92682</keyObject>
+<referredKeyID>5CD83B47-8580-8DFA-F258-42C7F9B92682</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>oi_ozn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Sred_skola</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

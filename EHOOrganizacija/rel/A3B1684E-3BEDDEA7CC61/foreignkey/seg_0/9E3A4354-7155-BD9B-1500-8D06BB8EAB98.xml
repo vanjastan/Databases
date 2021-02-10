@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E3A4354-7155-BD9B-1500-8D06BB8EAB98" containerWithKeyObject="AF872110-381B-A06E-CF31-C3E0618592F8" localFKIndex="BB661D55-2A36-7732-6B71-F71C38A8B51E" name="Edu_asist_Aktivnost_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>B76CE55C-A0F5-7090-BEB8-BF3947EC4BFE</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Aktivnost</referredTableLongName>
+<arc>5C4F0AE9-D5E3-357C-CDAB-865BF9C507B7</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D0AA2EF-88B5-8E2F-6478-79A3C3D6EF53</referredTableID>
+<keyObject>5CA998A6-9716-975C-1E65-3BDAAB0766CA</keyObject>
+<referredKeyID>5CA998A6-9716-975C-1E65-3BDAAB0766CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>akt_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Edu_asist</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

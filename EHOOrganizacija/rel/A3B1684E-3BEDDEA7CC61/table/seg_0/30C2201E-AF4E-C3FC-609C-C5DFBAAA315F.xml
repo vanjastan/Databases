@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30C2201E-AF4E-C3FC-609C-C5DFBAAA315F" name="Osn_skola">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>6987007A-DEA7-0FFF-5228-7B4A2AF26BF5</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="oi_ozn" id="BD2994F9-76EA-0C7D-0585-5305F3A5D9FD">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>D6C9F308-FEE8-FC6A-6416-FE5AA60513A1</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26931DD6-24F7-0694-3BE2-A538F3499696" referredColumn="C31DC298-88F7-E74E-33D5-8964703D76D3"/>
+</associations>
+</Column>
+<Column name="proj_sif" id="551A79E7-4488-92D4-0197-9F3627FE34B3">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>CB4E2DBA-DAD5-0099-7E43-8582CE023C2C</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E643891-5A09-41A4-D256-4E3424EA4E0D" name="Osn_skola_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>1CCB9BE5-753E-84FF-B26C-B1F4F18A9660</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD2994F9-76EA-0C7D-0585-5305F3A5D9FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B48916C8-6744-C92B-E5C4-372F28E58573" name="Osn_skola_Obrz_inst_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>DCA7523A-054E-9295-C175-E9CBC0063A53</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD2994F9-76EA-0C7D-0585-5305F3A5D9FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

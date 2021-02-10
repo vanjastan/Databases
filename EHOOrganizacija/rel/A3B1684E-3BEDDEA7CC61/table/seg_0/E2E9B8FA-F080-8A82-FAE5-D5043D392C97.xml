@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2E9B8FA-F080-8A82-FAE5-D5043D392C97" name="Pohadja">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Volonter_vol_jmbg" id="B2427BB3-3157-8B48-566B-226419CF6202">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F917DE7-3B88-5D3B-8660-F21C028FB2DD" referredColumn="B026D9D6-1EA0-1F2C-6423-37747AD6DDEB"/>
+</associations>
+</Column>
+<Column name="Obrz_inst_oi_ozn" id="9C068A8D-68F0-7D06-0BD9-7AFF821307E0">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6C2FEB7-8AB5-364D-C068-8581CCB071C7" referredColumn="C31DC298-88F7-E74E-33D5-8964703D76D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF055C2F-25D0-DFEB-DA36-5EB258BCE7DA" name="Pohadja_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2427BB3-3157-8B48-566B-226419CF6202"/>
+<colUsage columnID="9C068A8D-68F0-7D06-0BD9-7AFF821307E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3EA0FAA-BB89-D4DC-DFB4-0337F617FF45" name="Pohadja_Volonter_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>E41DB0C4-A3A9-B8E4-93F7-FDC2817A49B5</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2427BB3-3157-8B48-566B-226419CF6202"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D6E3965-221F-BD9D-8963-027E95A6FF48" name="Pohadja_Obrz_inst_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>E41DB0C4-A3A9-B8E4-93F7-FDC2817A49B5</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C068A8D-68F0-7D06-0BD9-7AFF821307E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

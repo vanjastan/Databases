@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JeClan" directorySegmentName="seg_0" id="48EC2698-1BA5-772A-9359-A86BFD5D3FB3">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:10:02 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5091FE5A-B3F5-8342-146F-68CFCABE1759</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4857AF9F-D82F-D479-3468-70B916A2B1DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="je_clan_lid" id="58936E63-68B4-321E-8075-C946F6B5BF21">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:10:20 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

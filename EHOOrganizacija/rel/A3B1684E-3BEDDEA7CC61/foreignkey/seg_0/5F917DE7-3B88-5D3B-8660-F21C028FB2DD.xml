@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5F917DE7-3B88-5D3B-8660-F21C028FB2DD" containerWithKeyObject="E2E9B8FA-F080-8A82-FAE5-D5043D392C97" localFKIndex="A3EA0FAA-BB89-D4DC-DFB4-0337F617FF45" name="Pohadja_Volonter_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>E41DB0C4-A3A9-B8E4-93F7-FDC2817A49B5</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Volonter</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9F4695A4-98D6-0607-105E-CA2E3E664844</referredTableID>
+<keyObject>BE39F05B-9DF1-E779-C5C7-C9E399F8F9D5</keyObject>
+<referredKeyID>BE39F05B-9DF1-E779-C5C7-C9E399F8F9D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vol_jmbg</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

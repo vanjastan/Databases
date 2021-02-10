@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6C2FEB7-8AB5-364D-C068-8581CCB071C7" containerWithKeyObject="E2E9B8FA-F080-8A82-FAE5-D5043D392C97" localFKIndex="7D6E3965-221F-BD9D-8963-027E95A6FF48" name="Pohadja_Obrz_inst_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>E41DB0C4-A3A9-B8E4-93F7-FDC2817A49B5</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Obrz_inst</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2956CD93-A8E0-AB1E-AC1D-A4716D4CD9D7</referredTableID>
+<keyObject>5CD83B47-8580-8DFA-F258-42C7F9B92682</keyObject>
+<referredKeyID>5CD83B47-8580-8DFA-F258-42C7F9B92682</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>oi_ozn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

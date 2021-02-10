@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Potpisuje" directorySegmentName="seg_0" id="5A4F638A-9B94-D659-BB37-6659DFBB6DDA">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:14:30 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<sourcePk>076A03D5-AF18-285D-7E4D-DC25A1BF79FC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F860D2D-1CE0-BA1B-C41B-BD9B9F995896</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D537033E-F4AB-ACFA-16E2-7262807A2FBF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="potp_izv" id="38172F86-D055-4A60-F1EC-A5E7D1C0A991">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:14:45 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

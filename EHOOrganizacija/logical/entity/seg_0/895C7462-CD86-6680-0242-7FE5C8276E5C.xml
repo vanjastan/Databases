@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="895C7462-CD86-6680-0242-7FE5C8276E5C" name="Aktivnost">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:03:57 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>8E3E10B6-F79B-8840-AF81-34A6F0B737D3</discriminatorAttributeID>
+<discriminatorColumnName>akt_tip</discriminatorColumnName>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="akt_id" id="6151D636-1D19-B3D6-B3AC-51F18AE2DEBC">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:04:32 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="akt_kap" id="24BC3EC9-AE23-5EE3-DAFE-3730ECE3BFFB">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:04:42 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="akt_poc" id="DAEC097B-4CBE-8E07-DCCC-3E685F098C8B">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:04:52 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="akt_kraj" id="123B845A-BC74-9A5A-29BE-78143D46241E">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:05:02 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="akt_tip" id="8E3E10B6-F79B-8840-AF81-34A6F0B737D3">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:05:13 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tim_sif" id="AB642340-1D48-C0AB-D55A-F980EE136B27">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:08:14 UTC</createdTime>
+<generatorID>844A23DC-D2B6-0C63-385B-0E52AFDFE709</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<referedAttribute>1D881EED-B8F5-A3F3-EE19-7CB02B8BC64D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1B9F902-8BF1-3B60-B695-3C04B93DEAC9" name="Aktivnost PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:04:40 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6151D636-1D19-B3D6-B3AC-51F18AE2DEBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

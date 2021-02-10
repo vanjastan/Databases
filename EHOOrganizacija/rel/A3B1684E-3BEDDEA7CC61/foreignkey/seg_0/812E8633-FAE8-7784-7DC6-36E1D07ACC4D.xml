@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="812E8633-FAE8-7784-7DC6-36E1D07ACC4D" containerWithKeyObject="BA271BE0-3B24-0E10-5EA2-DDAD86D2CE41" localFKIndex="23960C61-50E0-7364-87F5-26689EF95D8F" name="Fakultet_Obrz_inst_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>27815FDE-4403-175D-9599-B09ECBC9C5D3</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Obrz_inst</referredTableLongName>
+<arc>F8545D91-0F2C-8E54-B8A4-EBDD2D21C98E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2956CD93-A8E0-AB1E-AC1D-A4716D4CD9D7</referredTableID>
+<keyObject>5CD83B47-8580-8DFA-F258-42C7F9B92682</keyObject>
+<referredKeyID>5CD83B47-8580-8DFA-F258-42C7F9B92682</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>oi_ozn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Fakultet</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

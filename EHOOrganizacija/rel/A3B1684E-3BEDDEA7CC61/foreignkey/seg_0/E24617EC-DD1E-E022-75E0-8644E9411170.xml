@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E24617EC-DD1E-E022-75E0-8644E9411170" containerWithKeyObject="8D0AA2EF-88B5-8E2F-6478-79A3C3D6EF53" localFKIndex="ADB0F604-4BF9-6D3F-D008-9AE7A2470A9A" name="Aktivnost_Tim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>844A23DC-D2B6-0C63-385B-0E52AFDFE709</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Tim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A87B1BE-BDF3-CD1D-93C5-A3917E60CA0E</referredTableID>
+<keyObject>C7EDB6CF-C97D-3694-E6FB-A42FEA3B6EDD</keyObject>
+<referredKeyID>C7EDB6CF-C97D-3694-E6FB-A42FEA3B6EDD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tim_sif</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

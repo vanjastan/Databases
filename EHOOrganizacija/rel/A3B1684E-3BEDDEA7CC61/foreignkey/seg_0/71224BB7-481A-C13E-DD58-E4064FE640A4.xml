@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="71224BB7-481A-C13E-DD58-E4064FE640A4" containerWithKeyObject="6F4F3F17-98AD-066E-7DAE-086577F9B688" localFKIndex="C7D6C92A-FE3D-E04C-BC8E-6BA38FCA8A11" name="Teren_Projekat_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>807F8C66-DFD7-BC24-9D53-50C8C53FC349</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Projekat</referredTableLongName>
+<arc>F2751E6F-0E42-6FC7-4B48-A8F95F54DD61</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C71D9BB8-99E8-4117-62AC-F3978A04FF7C</referredTableID>
+<keyObject>AC4DDAA9-96E4-8D87-82DA-554A79C028C3</keyObject>
+<referredKeyID>AC4DDAA9-96E4-8D87-82DA-554A79C028C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>proj_sif</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Teren</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

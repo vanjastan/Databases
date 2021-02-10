@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EC4EC8C-A341-4E1F-A019-790D6B43490A" name="Boravak">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>9EF2DD03-E49E-9737-7838-FBBCF5734EF7</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="proj_sif" id="7DC5282E-3CEA-3258-3A6C-FDBAA35B9283">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>F66F3A88-DD9C-D816-615B-D1528EF45BD8</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82230079-B9FE-50A1-3D8E-66A485AECB9A" referredColumn="266CE0D2-F93B-4E5B-ADF2-ECF60651AF20"/>
+</associations>
+</Column>
+<Column name="bor_kap" id="AA83BA8C-526C-A7C9-CF33-A21398AACC93">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>C2650960-BBDF-8EE6-B87F-D18725B2685E</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bor_raz" id="AAC6FE45-324C-797E-550E-6EB2C3A798E0">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>A3DA7479-2467-868B-EB00-4819430E4E82</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tim_tim_sif" id="53421D87-40D1-AE2F-3385-B868D461344C">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>81172129-B1E1-5837-293B-A162CBE01935</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F36FBD41-7187-5183-7A1F-9A7CC0DB33E0" referredColumn="FA8FC9DE-0604-6F34-E798-FE92D430CD6D"/>
+</associations>
+</Column>
+<Column name="Osn_skola_oi_ozn" id="5A7EA0E6-FB99-7448-EAEB-F777918CB41F">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>C38DB2D8-A73E-4724-FE22-26B0DCEFA726</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="543234FA-9F70-7769-886C-DFE09BFB3F39" referredColumn="BD2994F9-76EA-0C7D-0585-5305F3A5D9FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7957BF5-74E2-0CDA-042E-1ED41C3E38E8" name="Boravak_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>E80D146D-5A5B-9C56-EE2A-1A3B7DBF0B11</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DC5282E-3CEA-3258-3A6C-FDBAA35B9283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C45C5A10-9725-E717-3E9E-84FC3970D390" name="Boravak_Projekat_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>37AF72F6-A2CC-33D0-0918-71B1C0763D65</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DC5282E-3CEA-3258-3A6C-FDBAA35B9283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC18BAE7-ABDF-6D76-0DFD-3E8FCE605A6A" name="Boravak_Osn_skola_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>33CABD48-3035-2C87-C1B3-077CBE5413B8</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A7EA0E6-FB99-7448-EAEB-F777918CB41F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09883E82-3F94-91EF-6AD6-494B3EDC2821" name="Boravak_Tim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>42E68BB2-1C3D-AA91-2F0F-46525C21A85E</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53421D87-40D1-AE2F-3385-B868D461344C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

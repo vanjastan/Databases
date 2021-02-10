@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pohadja" directorySegmentName="seg_0" id="E41DB0C4-A3A9-B8E4-93F7-FDC2817A49B5">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 21:39:55 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4857AF9F-D82F-D479-3468-70B916A2B1DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B141129-AA3B-0091-04E2-D0D0CBDE5CC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

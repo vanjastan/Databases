@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9406F83C-7731-56F8-FF91-586E1A5D8FD3" containerWithKeyObject="5DC2E7AF-3CEA-BCC8-0CB4-6D34695D1E70" localFKIndex="92E54283-8A60-DC57-6233-0D90EC46EE88" name="Socijalizacija_Aktivnost_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>7EB6E176-0BB5-6119-D460-B4B1084FC3A4</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Aktivnost</referredTableLongName>
+<arc>5C4F0AE9-D5E3-357C-CDAB-865BF9C507B7</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D0AA2EF-88B5-8E2F-6478-79A3C3D6EF53</referredTableID>
+<keyObject>5CA998A6-9716-975C-1E65-3BDAAB0766CA</keyObject>
+<referredKeyID>5CA998A6-9716-975C-1E65-3BDAAB0766CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>akt_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Socijalizacija</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

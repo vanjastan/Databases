@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9F598D33-CB97-B62E-EB70-E872D0092052" containerWithKeyObject="D03F2A2C-F363-FC87-8843-AB7CA5087E55" localFKIndex="117BAA3E-DADB-1AB8-4B4D-99C4D90BB63F" name="Prijava_Rukovodilac_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>0BAFF5B4-2C59-344A-A4A3-8FAC5FF6A0AB</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Rukovodilac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4D09E3DE-2E27-E276-2E8C-4E99B93ACC79</referredTableID>
+<keyObject>06C5B1F1-70B2-BFD6-6576-11F91FA432D7</keyObject>
+<referredKeyID>06C5B1F1-70B2-BFD6-6576-11F91FA432D7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ruk_jmbg</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA271BE0-3B24-0E10-5EA2-DDAD86D2CE41" name="Fakultet">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>D15E74FB-B324-ADDB-BAD2-D763B20DDD75</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="oi_ozn" id="2044B5ED-0463-B388-5DAD-609479AD4161">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>D6C9F308-FEE8-FC6A-6416-FE5AA60513A1</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="812E8633-FAE8-7784-7DC6-36E1D07ACC4D" referredColumn="C31DC298-88F7-E74E-33D5-8964703D76D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA7B0E39-B280-1B07-0C42-FA5A25DFD86C" name="Fakultet_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>1CCB9BE5-753E-84FF-B26C-B1F4F18A9660</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2044B5ED-0463-B388-5DAD-609479AD4161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23960C61-50E0-7364-87F5-26689EF95D8F" name="Fakultet_Obrz_inst_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>27815FDE-4403-175D-9599-B09ECBC9C5D3</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2044B5ED-0463-B388-5DAD-609479AD4161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

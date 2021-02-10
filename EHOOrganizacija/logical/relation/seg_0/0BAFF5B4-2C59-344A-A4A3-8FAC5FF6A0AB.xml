@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Odobrava" directorySegmentName="seg_0" id="0BAFF5B4-2C59-344A-A4A3-8FAC5FF6A0AB">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 21:49:44 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<sourcePk>45A4FE67-206B-9851-8B8D-74B3DDEB34CC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>98583E37-B930-55A7-BD94-2F117A5A7316</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A3D1EEB4-58CF-932C-CF85-E78F209AEF27</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="odb_prij" id="1851F9C5-F39C-121A-1F9C-B043B27A846F">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 21:50:18 UTC</createdTime>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<engineerTo>
+<item key="A3B1684E-EEC8-E1DD-3924-3BEDDEA7CC61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

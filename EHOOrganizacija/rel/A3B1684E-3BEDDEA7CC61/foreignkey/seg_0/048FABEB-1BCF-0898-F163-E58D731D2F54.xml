@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="048FABEB-1BCF-0898-F163-E58D731D2F54" containerWithKeyObject="2C154632-6C0F-60E9-B24D-659FC1F64EB9" localFKIndex="24DC24DD-7DB3-C4F1-F8D0-88DC4F431BBB" name="Pedagog_Osn_skola_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>657E6AAB-8EDC-3645-13E8-47B5E29FEF06</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<referredTableLongName>Osn_skola</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>30C2201E-AF4E-C3FC-609C-C5DFBAAA315F</referredTableID>
+<keyObject>7E643891-5A09-41A4-D256-4E3424EA4E0D</keyObject>
+<referredKeyID>7E643891-5A09-41A4-D256-4E3424EA4E0D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>oi_ozn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

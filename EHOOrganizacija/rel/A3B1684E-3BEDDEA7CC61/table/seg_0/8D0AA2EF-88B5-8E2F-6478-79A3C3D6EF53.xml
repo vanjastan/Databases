@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D0AA2EF-88B5-8E2F-6478-79A3C3D6EF53" name="Aktivnost">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>895C7462-CD86-6680-0242-7FE5C8276E5C</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="akt_id" id="57634C0F-1571-1994-20D2-DA115386EEF0">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>6151D636-1D19-B3D6-B3AC-51F18AE2DEBC</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="akt_kap" id="39B10027-448A-2DA8-671C-8F74837893BB">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>24BC3EC9-AE23-5EE3-DAFE-3730ECE3BFFB</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="akt_poc" id="EE6EA9C9-7873-415B-360B-4DEA903A9312">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>DAEC097B-4CBE-8E07-DCCC-3E685F098C8B</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="akt_kraj" id="60854BFE-4D64-22F7-F2EB-B74D66A5E727">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>123B845A-BC74-9A5A-29BE-78143D46241E</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="akt_tip" id="AEA24CDD-EA5A-F8AF-6561-E0836B62E5F2">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>8E3E10B6-F79B-8840-AF81-34A6F0B737D3</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<constraintName>CH_INH_Aktivnost</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<listOfValues>
+<valueDef value="Edu_asist" description="entity Edu_asist"/>
+<valueDef value="Fizicko" description="entity Fizicko"/>
+<valueDef value="Socijalizacija" description="entity Socijalizacija"/>
+</listOfValues>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="Tim_tim_sif" id="C7311F72-3172-F352-7C9D-36310F36E956">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>AB642340-1D48-C0AB-D55A-F980EE136B27</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E24617EC-DD1E-E022-75E0-8644E9411170" referredColumn="FA8FC9DE-0604-6F34-E798-FE92D430CD6D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CA998A6-9716-975C-1E65-3BDAAB0766CA" name="Aktivnost_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>C1B9F902-8BF1-3B60-B695-3C04B93DEAC9</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57634C0F-1571-1994-20D2-DA115386EEF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADB0F604-4BF9-6D3F-D008-9AE7A2470A9A" name="Aktivnost_Tim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2021-01-19 22:34:23 UTC</createdTime>
+<generatorID>844A23DC-D2B6-0C63-385B-0E52AFDFE709</generatorID>
+<ownerDesignName>EHOOrganizacija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7311F72-3172-F352-7C9D-36310F36E956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
